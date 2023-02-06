@@ -1,0 +1,18 @@
+.testnomial-text{
+    background: url('/assets/images/mpldoneright/Learning\ Den.png') /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media only screen and (max-width:767px){
+      background: url('/assets/images/mpldoneright/Learning\ Den\ -sm.png') ;
+       height:180px !important;
+       width: 100%;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}

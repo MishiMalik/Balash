@@ -1,0 +1,43 @@
+.about-text {
+    background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url('/assets/images/aboutttt.jpg')
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @media only screen and (max-width:768px) {
+        height: 300px;
+        width: 100%;
+        background-position: center;
+    }
+}
+
+.greate-people {
+
+    background: rgba(143, 119, 31, 0.06);
+    padding: 70px 0px;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+// .author-img{
+//     position: relative;
+//     .author-logo{
+//         position: absolute;
+//         top: 10px;
+//         left: 10px;
+//     }
+// }
+.balash-text {
+    height: 12px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+}
