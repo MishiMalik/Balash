@@ -1238,7 +1238,7 @@ textarea:focus {
     padding: 10px 10px; }
 
 .banners-carousel {
-  height: 50vh; }
+  height: 80vh; }
   .banners-carousel .carousel-item {
     object-fit: contain; }
     .banners-carousel .carousel-item img {
