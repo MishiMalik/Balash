@@ -731,6 +731,9 @@ textarea:focus {
   height: 600px;
   position: relative;
   overflow: hidden; }
+  @media only screen and (max-width: 767px) {
+    .team-pic-div {
+      height: 400px; } }
 
 .team-pic {
   height: 100%;
@@ -752,7 +755,8 @@ textarea:focus {
   transition: height .3s; }
   @media only screen and (max-width: 440px) {
     .team-div-text {
-      height: 120px; } }
+      height: 105px;
+      padding: 10px 7px; } }
 
 .team-div-text-detail {
   overflow-y: auto;

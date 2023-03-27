@@ -285,6 +285,10 @@
     // object-fit: cover;
     position: relative;
     overflow: hidden;
+
+    @media only screen and (max-width:767px){
+        height: 400px;
+    }
 }
 
 .team-pic {
@@ -310,7 +314,8 @@
     padding: 20px;
     transition: height .3s;
     @media only screen and (max-width:440px){
-        height: 120px;
+        height: 105px;
+        padding:10px 7px;
     }
 }
 
