@@ -62,7 +62,7 @@
 
 
 .news-card-3{
-    height: 402px;
+    // height: 402px;
     width: auto;
     position: relative;
     
@@ -73,11 +73,16 @@
         border-radius: 10px 10px 0px 0px;
         object-fit: cover;
     }
-
+    video{
+        width: 100%;
+        height: 215px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+    }
     .text {
         background:  #F9F3DD;;
-        border-radius: 10px;
-        height: 187px;
+        border-radius:0px 0px 10px 10px;
+        // height: 187px;
         padding: 15px;
         display: flex;
         flex-direction: column;

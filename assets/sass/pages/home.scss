@@ -277,7 +277,7 @@
 }
 
 .team-pic-div {
-    // height: 400px;
+    height: 600px;
     // width: 100%;
     // border-radius: 100%;
     // display: flex;
@@ -469,4 +469,44 @@
 .success-image{
     border: 1px solid $primary;
     padding: 10px;
+}
+.ellipsis-2{
+
+    width:100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 40px;
+}
+.video-div{
+    margin-right: -70px;
+    display: flex;
+    justify-content: flex-end;
+    @media only screen and (max-width:991px){
+        margin-right: 0px;
+    }
+    video{
+        @media only screen and (max-width:991px){
+           width: 100%;
+        }
+    }
+}
+.mx-width-100{
+    @media only screen and (max-width: 1600px) and (min-width: 991px)   {
+        max-width: 100% !important;
+     }
+}
+.video-div-right{
+    margin-left: -70px;
+    display: flex;
+    justify-content: flex-start;
+    @media only screen and (max-width:991px){
+        margin-left: 0px;
+    }
+    video{
+        @media only screen and (max-width:991px){
+           width: 100%;
+        }
+    }
 }
