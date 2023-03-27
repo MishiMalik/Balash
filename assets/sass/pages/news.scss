@@ -187,3 +187,13 @@
         padding: 10px 10px;
     }
   }
+
+  .banners-carousel{
+    height: 50vh;
+    .carousel-item{
+        object-fit: contain;
+        img{
+            object-fit: contain;
+        }
+    }
+  }

@@ -1237,6 +1237,13 @@ textarea:focus {
     font-weight: 500;
     padding: 10px 10px; }
 
+.banners-carousel {
+  height: 50vh; }
+  .banners-carousel .carousel-item {
+    object-fit: contain; }
+    .banners-carousel .carousel-item img {
+      object-fit: contain; }
+
 .contact-text {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/contact.png");
   display: flex;
