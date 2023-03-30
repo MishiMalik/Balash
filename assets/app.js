@@ -18,7 +18,7 @@ $('.logo-slider').owlCarousel({
     loop: true,
     margin:10,
     responsiveClass: true,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 2500,
     autoplayHoverPause: true,
     responsive: {
@@ -68,7 +68,7 @@ $('.logo-slider-succes').owlCarousel({
   loop: true,
   margin:10,
   responsiveClass: true,
-  autoplay: true,
+  // autoplay: true,
   autoplayTimeout: 2500,
   autoplayHoverPause: true,
   responsive: {

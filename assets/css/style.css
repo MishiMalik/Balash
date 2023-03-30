@@ -916,6 +916,9 @@ textarea:focus {
     .video-div-right video {
       width: 100%; } }
 
+.owl-dots {
+  display: none; }
+
 .about-text {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/aboutttt.jpg");
   display: flex;
