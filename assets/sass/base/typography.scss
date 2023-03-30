@@ -144,13 +144,31 @@ background: -webkit-linear-gradient(257.66deg, #FFB800 2.56%, #DD824F 100%);
         white-space: nowrap;
     }
     .f-20{
+        font-size: 14px;
+    }
+    .f-20{
+        font-size: 14px;
+    }
+    .f-25{
+        font-size: 22px;
+    }
+    .f-18{
         font-size: 16px;
     }
+    .f-16{
+        font-size: 14px;
+    }
 }
-@media only screen and (max-width:375px){
+@media only screen and (max-width:400px){
    
     .f-20{
         font-size: 14px;
+    }
+    .f-25{
+        font-size: 22px;
+    }
+    .f-18{
+        font-size: 16px;
     }
 }
 .text-justify{
