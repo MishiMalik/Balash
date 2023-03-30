@@ -514,12 +514,18 @@
     justify-content: flex-start;
     @media only screen and (max-width:991px){
         margin-left: 0px;
+        margin-right: -70px;
     }
     video{
         @media only screen and (max-width:991px){
            width: 100%;
         }
     }
+}
+.text-justify-lg {
+    @media only screen and (min-width:500px){
+        text-align: justify !important;
+     }
 }
 .owl-dots{
     display: none;

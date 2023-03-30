@@ -926,10 +926,15 @@ textarea:focus {
   justify-content: flex-start; }
   @media only screen and (max-width: 991px) {
     .video-div-right {
-      margin-left: 0px; } }
+      margin-left: 0px;
+      margin-right: -70px; } }
   @media only screen and (max-width: 991px) {
     .video-div-right video {
       width: 100%; } }
+
+@media only screen and (min-width: 500px) {
+  .text-justify-lg {
+    text-align: justify !important; } }
 
 .owl-dots {
   display: none; }
