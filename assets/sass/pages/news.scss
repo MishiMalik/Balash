@@ -98,7 +98,7 @@
 .news-card-4{
     width: auto;
     position: relative;
-    height: 590px;
+    // height: 590px;
     overflow-y: auto;
     img {
         width: 100%;
@@ -108,7 +108,7 @@
 
     .text {
         background:  #F9F3DD;;
-        border-radius: 10px;
+        border-radius:0px 0px 10px 10px;
         padding: 15px;
         display: flex;
         flex-direction: column;

@@ -483,6 +483,10 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     min-height: 40px;
+
+    @media only screen and (max-width:500px){
+        min-height: 35px;
+    }
 }
 .video-div{
     margin-right: -70px;
