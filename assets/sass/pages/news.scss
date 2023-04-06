@@ -189,11 +189,18 @@
   }
 
   .banners-carousel{
-    height: 80vh;
+    height: 450px;
+   @media only screen and (max-width:767px){
+    height: 300px;
+   }
     .carousel-item{
         object-fit: contain;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
         img{
-            object-fit: contain;
+            object-fit: contain !important;
+            object-position: center;
         }
     }
   }

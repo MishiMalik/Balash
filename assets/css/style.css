@@ -1263,11 +1263,15 @@ textarea:focus {
     padding: 10px 10px; }
 
 .banners-carousel {
-  height: 80vh; }
+  height: 450px; }
+  @media only screen and (max-width: 767px) {
+    .banners-carousel {
+      height: 300px; } }
   .banners-carousel .carousel-item {
     object-fit: contain; }
     .banners-carousel .carousel-item img {
-      object-fit: contain; }
+      object-fit: contain !important;
+      object-position: center; }
 
 .contact-text {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/contact.png");
